@@ -7,4 +7,8 @@ router.get('/', (req, res) => {
   });
 });
 
+router.get('/probe', (req, res) => {
+  res.status(200).send();
+});
+
 module.exports = router;
